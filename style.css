@@ -1,0 +1,107 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center Align Content */
+div {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+/* Text Columns Styling */
+.text-columns .text-box-F1,
+.update-box,
+.text-box,
+.form-section {
+    margin-bottom: 40px;
+}
+
+/* Book List Styling */
+.book-list .book-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    border-color: #333;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="submit"], button {
+    align-self: flex-start;
+}
+
+/* Token List Styling */
+.token-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.token-list-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.token-list-container li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.token-list-container li:hover {
+    border-color: #333;
+}
+
+/* Image Column */
+.image-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
